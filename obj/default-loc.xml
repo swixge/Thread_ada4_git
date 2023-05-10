@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>C:\Users\#208;#154;#208;#190;#209;#129;#209;#130;#209;#143;\Desktop\4\Ada\default.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>C:\Users\#208;#154;#208;#190;#209;#129;#209;#130;#209;#143;\Desktop\4\Ada\default.gpr</vfs_project>
+      <vfs_file>C:\Users\#208;#154;#208;#190;#209;#129;#209;#130;#209;#143;\Desktop\4\Ada\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >D:\4 Lab pop\Ada\default.gpr</vfs_file>
+    <file_marker current="true" column=" 11" line=" 4">
+      <vfs_project >D:\4 Lab pop\Ada\default.gpr</vfs_project>
+      <vfs_file >D:\4 Lab pop\Ada\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
