@@ -13,8 +13,14 @@ procedure main is
 
    procedure Lock_Forks(Id : Integer) is
    begin
-      Forks(Id).Seize;
-      Forks((Id mod 5) + 1).Seize;
+      if Id mod 2 = 0 then
+         Forks(Id).Seize;
+         Forks((Id mod 5) + 1).Seize;
+      else
+         Forks((Id mod 5) + 1).Seize;
+         Forks(Id).Seize;
+      end if;
+
       Put_Line("Philosopher " & Id'Img & " took left fork");
       Put_Line("Philosopher " & Id'Img & " took right fork");
    end Lock_Forks;
