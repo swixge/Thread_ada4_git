@@ -337,9 +337,9 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
-   --   D:\studi\paralel\4\Ada\obj\main.o
-   --   -LD:\studi\paralel\4\Ada\obj\
-   --   -LD:\studi\paralel\4\Ada\obj\
+   --   C:\3.2\Paralelni OP (e) (24)\LR4\Thread_ada4_git\obj\main.o
+   --   -LC:\3.2\Paralelni OP (e) (24)\LR4\Thread_ada4_git\obj\
+   --   -LC:\3.2\Paralelni OP (e) (24)\LR4\Thread_ada4_git\obj\
    --   -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
    --   -static
    --   -lgnarl

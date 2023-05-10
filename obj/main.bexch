@@ -1,17 +1,17 @@
 [GENERATED OBJECT FILE]
 b__main.o
 [PROJECT FILES]
-D:\studi\paralel\4\Ada\default.gpr
-20230408101804 79e0c0aeb2ef10425a6e385f349c9451
+C:\3.2\Paralelni OP (e) (24)\LR4\Thread_ada4_git\default.gpr
+20230427060034 085a97ad387180446d8d7d32af14a7a7
 [BOUND OBJECT FILES]
-D:\studi\paralel\4\Ada\obj\main.o
+C:\3.2\Paralelni OP (e) (24)\LR4\Thread_ada4_git\obj\main.o
 [GENERATED SOURCE FILES]
 b__main.ads
 b__main.adb
 b__main.ali
 [RESULTING OPTIONS]
--LD:\studi\paralel\4\Ada\obj\
--LD:\studi\paralel\4\Ada\obj\
+-LC:\3.2\Paralelni OP (e) (24)\LR4\Thread_ada4_git\obj\
+-LC:\3.2\Paralelni OP (e) (24)\LR4\Thread_ada4_git\obj\
 -LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
 -static
 -static-libgcc
