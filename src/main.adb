@@ -15,9 +15,9 @@ procedure main is
    begin
       if Id mod 2 = 0 then
          Forks(Id).Seize;
-         Forks((Id mod 5) + 1).Seize;
+         Forks(Id + 1).Seize;
       else
-         Forks((Id mod 5) + 1).Seize;
+         Forks(Id + 1).Seize;
          Forks(Id).Seize;
       end if;
 
