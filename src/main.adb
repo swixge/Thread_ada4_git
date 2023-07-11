@@ -28,7 +28,7 @@ procedure main is
    procedure Unlock_Forks(Id : Integer) is
    begin
       Forks(Id).Release;
-      Forks((Id mod 5) + 1).Release;
+      Forks(Id + 1).Release;
       Put_Line("Philosopher " & Id'Img & " put left fork");
       Put_Line("Philosopher " & Id'Img & " put right fork");
    end Unlock_Forks;
